@@ -1,0 +1,22 @@
+.column-header-name {
+    color: white;
+}
+
+/* table.cell-table tbody tr:has(+ td.focused) {
+    background-color: rgb(26, 196, 54) !important;
+} */
+table.cell-table td {
+    border: 1px solid rgb(211, 211, 211) !important;
+}
+table.cell-table td.focused {
+    background-color: rgba(255, 65, 54, 0.2) !important;
+}
+
+table.cell-table th {
+    user-select: none;
+}
+
+div.dash-cell-value {
+    cursor: pointer;
+}
+

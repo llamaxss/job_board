@@ -1,0 +1,65 @@
+#table-filter-box {
+    display: inline-block;
+}
+#table-filter-box > * {
+    vertical-align:middle;
+}
+
+.dash-dropdown {
+    display: inline-block !important;
+    margin: 0.5em 0.2em;
+    min-width: 8em;
+
+}
+
+#filter-salary-slider {
+    display: inline-block;
+    padding: 0.3em !important;
+    width: 100%;
+}
+
+#filter-salary-slider::before {
+    content: "Salary range";
+    display: block;
+    margin: 0.5em 0.3em;
+    font-size: 0.8em;
+}
+
+#job-detail-button {
+    width: 10em;
+}
+
+#filter-salary-picker {
+    font-size: 0.8em;
+}
+
+#filter-salary {
+    display: inline-block;
+    width: 20%;
+    margin: 0 1em;
+}
+
+#filter-salary-picker {
+    padding-top: 1em;
+}
+
+#filter-jobtype::before {
+    content: "Job type";
+    display: block;
+    margin: 0.5em 0.3em;
+    font-size: 0.8em;
+}
+
+#filter-joblevel::before {
+    content: "Job level";
+    display: block;
+    margin: 0.5em 0.3em;
+    font-size: 0.8em;
+}
+
+#filter-web-name::before {
+    content: "Website";
+    display: block;
+    margin: 0.5em 0.3em;
+    font-size: 0.8em;
+}
