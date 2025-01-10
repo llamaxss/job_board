@@ -50,7 +50,7 @@ export WEB_A_NAME="website name"
 export WEB_B_URL="some job board website url"
 export WEB_B_DETAIL_PATH="$WEB_B_URL/path to detail"
 export WEB_B_NAME="website name"
-# For all website that scrapted is mock-up.
+# For all website that scraped is mock-up.
 
 export PYTHONPATH=$(pwd):$PYTHONPATH
 # Add python path for use custom module.
